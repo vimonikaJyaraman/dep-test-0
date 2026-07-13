@@ -25,7 +25,7 @@ pipeline {
     post {
         always {
             // Clean up the temporary file
-            sh "rm -f k8s/deployment_updated.yaml"
+            sh "rm -f k8s/deployment.yaml"
         }
     }
 }
